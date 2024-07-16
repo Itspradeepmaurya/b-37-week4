@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #405BD3;
+    
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #405BD3;
+    color: white;
+    max-width: 1300px;
+    margin: auto;
+}
+
+header>div.logo img{
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+    max-width: 1300px;
+    
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+div.hero-image img{
+    width: 650px;
+}
+
+div.hero-image{
+    object-fit: cover;
+    object-position: 70% 15%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #405BD3;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.hero-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 200px;
+    height: 600px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+
+.hero-content p {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.app-links a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.stats {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.stats span{
+    color: #f0f4ff;
+    width: 10px;
+}
+
+.stats div {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#phones {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.features h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.features p {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #666;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    flex-direction: row;
+}
+
+.feature {
+    max-width: 600px;
+    text-align: center;
+}
+
+.feature img {
+    width: 60px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
